@@ -1,0 +1,12 @@
+.banner {
+    height: 80vh;
+    width: 100%;
+    background: url(/img/aboutblue.jpg) no-repeat bottom left/cover;
+}
+
+@media (max-width:768px) {
+    .banner {
+        height: 80vh;
+        background: url(/img/aboutbluemobile.jpg) no-repeat bottom left/cover;
+    }
+}

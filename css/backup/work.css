@@ -1,0 +1,146 @@
+.banner {
+    height: 60vh;
+    width: 100%;
+    background: url(/img/hero-bg2.jpg) no-repeat bottom left/cover;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-items {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 80px 60px;
+}
+
+.project-item {
+    width: 29%;
+    margin: 0 2.1% 32px;
+
+}
+
+.project-title h5 {
+    margin-top: 12px;
+    font-size: 1.2rem;
+    line-height: 26px;
+    color: var(--gray1);
+}
+
+.project-desc {
+    color: var(--gray3);
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.project-cover {
+    width: 100%;
+    overflow: hidden;
+}
+
+.project-cover img {
+    width: 100%;
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.project-item:hover .project-cover img {
+    transform: scale(1.2);
+}
+
+/* 响应式查询 */
+@media screen and (max-width:768px) {
+    .project-items {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 0px 0px;
+    }
+
+    .project-item {
+        width: 320px;
+        margin: 0 0 24px;
+    }
+
+    .project-cover {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .project-cover img {
+        width: 100%;
+    }
+
+    .project-title h5 {
+        margin-top: 8px;
+        font-size: 16px;
+        line-height: 26px;
+        color: var(--gray1);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .middlewrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+    background-color: #091634;
+}
+
+.middlewrap h1 {
+    margin: 32px 0px 16px;
+    color: white;
+}
+
+.middlewrap iframe {
+    width: 700px;
+    height: 400px;
+}
+ */
+
+/* 响应式查询 */
+/* @media (max-width:768px) {
+    .middlewrap iframe {
+        width: 90%;
+        height: 30%;
+    }
+} */

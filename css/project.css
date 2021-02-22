@@ -1,0 +1,14 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+}
+
+@media (max-width:768px) {
+    .banner {
+        height: 80vh;
+        background: url(/img/aboutbluemobile.jpg) no-repeat bottom left/cover;
+    }
+}
